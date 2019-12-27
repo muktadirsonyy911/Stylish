@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ClickLL"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@drawable/tgirl">
+
+        <TextView
+            android:id="@+id/NameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ShopName"
+            android:textColor="#F3EEEE"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/AddressTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#F5F2F2"
+            android:textSize="20dp"
+            android:text="ShopAddress" />
+
+        <TextView
+            android:id="@+id/PhoneTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ShopPhone"
+            android:textSize="20dp"
+            android:textColor="#E7E0E0"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/appointmentBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textColor="#F1EDED"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="Get Appointment"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
